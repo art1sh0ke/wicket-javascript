@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.3-strict.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="charset" content="UTF-8" />
+<wicket:head>
+<style>
+	.process-indicator {
+		font-weight: bold; 
+		color: #9bb63e;
+		display: none;
+	}
+	
+	.process-indicator span {
+		margin-left: 12px;
+	}
+</style>
+</wicket:head>
+</head>
+<body>
+<wicket:panel>
+	<span wicket:id="indicator" class="process-indicator">
+		<img wicket:id="indicator_image" />
+		<span wicket:id="indicator_text">Делаем красиво...</span>
+	</span>
+</wicket:panel>
+</body>
+</html>

@@ -1,0 +1,5 @@
+
+// add event handler to Cool Button 
+${variableName}.addOnClickHandler(function() {
+	${onClickJS}
+})

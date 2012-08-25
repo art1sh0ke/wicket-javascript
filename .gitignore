@@ -1,6 +1,12 @@
-*.class
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
 
-# Package Files #
-*.jar
-*.war
-*.ear
+#Eclipse files
+.settings/
+.classpath
+.project
+
+#Project files
+classes/
+*.class

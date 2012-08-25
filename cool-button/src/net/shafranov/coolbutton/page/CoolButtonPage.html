@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.3-strict.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="charset" content="UTF-8" />
+<title>Приложение для Заказчика</title>
+<style>
+	body {
+		font-family: Helvetica;
+		padding: 20px;
+	}
+	
+	.result-label {
+		font-weight: bold; 
+		color: #9bb63e;
+	}
+</style>
+</head>
+<body>
+
+	<div wicket:id="the_coolest_button">
+		Сделать все красиво 
+	</div>
+	
+	<br /><br />
+	
+	<wicket:container wicket:id="process_indicator">
+		Делаем красиво...
+	</wicket:container>
+	
+	<div wicket:id="result_label" class="result-label">
+		Все уже сделано красиво или нет?
+	</div>
+
+</body>
+</html>

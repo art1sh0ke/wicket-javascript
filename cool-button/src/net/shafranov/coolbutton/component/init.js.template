@@ -1,0 +1,15 @@
+
+// create component namespace if it didn't exist
+if (!${namespace}) {
+	${namespace} = {};
+}
+
+// CoolButton component initialization
+${variableName} = new CoolButton({
+    elementId: "${elementId}",
+    caption: "${caption}",
+    width: ${width},
+    height: ${height},
+    textColor: "${textColor}",
+    backColor: "${backColor}"
+})

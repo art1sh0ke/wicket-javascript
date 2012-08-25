@@ -1,0 +1,9 @@
+
+// add mouse event handlers to Cool Button 
+${variableName}.addOnMouseOverHandler(function() {
+	${onMouseOverJS}
+});
+
+${variableName}.addOnMouseOutHandler(function() {
+	${onMouseOutJS}
+});
